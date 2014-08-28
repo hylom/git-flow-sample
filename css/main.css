@@ -23,3 +23,107 @@ h3 {
   font-size: 100%;
   margin: 4px 4px 1em;
 }
+
+#top {
+  border-bottom: 1px solid #999999;
+}
+
+#contents-editor {
+  width: 100%;
+  height: 600px;
+}
+
+#contents .body-text {
+  width: 33em;
+}
+
+#contents #line-number-box {
+  float: left;
+  width: 1em;
+}
+
+#contents #line-number-box,
+#contents #text,
+#contents .horizontal-number,
+#contents p,
+#contents h1,
+#contents h2,
+#contents h3 {
+  line-height: 22px;
+  margin: 0;
+}
+
+#contents h1 {
+  line-height: 64px; /* 3*22-2 */
+}
+#contents h2, 
+#contents h3 { 
+  line-height: 42px; /* 2*22-2 */
+}
+
+#contents #line-number-box {
+}
+
+#contents #text,
+#contents .horizontal-number {
+  margin-left: 40px;
+}
+
+}
+
+#contents .horizontal-number {
+  margin-bottom: 20px;
+}
+
+#contents table {
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+#contents tr.chapter {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#contents tr.chapter td{
+  height: 3em;
+}
+
+#contents pre {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#contents h1,
+#contents h2,
+#contents h3 {
+  font-size: 100%;
+  font-weight: bold;
+  border: 1px solid gray;
+}
+
+#contents h1 {
+  font-size: 150%;
+  text-align: center;
+}
+
+#contents h2 {
+  font-size: 120%;
+  padding-left: 8px;
+}
+
+#contents table {
+  border-collapse: collapse;
+  font-size: 90%;
+  line-height: 120%;
+  margin-bottom: 22px;
+}
+
+#contents td {
+  border: 1px solid;
+  padding: 1px 3px;
+}
+
+#contents .caption {
+  margin-top: 22px;
+}
